@@ -1,0 +1,50 @@
+.container {
+    padding-top: 2rem;
+  }
+  
+  .form-card {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-card h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .form-card label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+  
+  .form-card input[type="text"],
+  .form-card input[type="email"],
+  .form-card input[type="password"] {
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+  }
+  
+  .checkbox-wrapper {
+    margin: 1rem 0;
+  }
+  
+  .form-card button {
+    width: 100%;
+    padding: .5rem;
+    border-radius: .25rem;
+    cursor: pointer;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .form-card {
+      padding: 1rem;
+    }
+  }
